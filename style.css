@@ -1,0 +1,194 @@
+* {
+
+   
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  
+  
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: none;
+  border-bottom: none;
+}
+           
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #c40606;
+}
+
+/* Navbar */
+.navbar {
+  
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+.container {
+
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff6e5a;
+}
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.icons span {
+  margin-left: 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+
+.hero {
+
+  position: relative;
+ background: url('https://source.unsplash.com/1600x900/?office,workspace,team');
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 99, 131, 0.5);
+}
+.hero-content {
+  position: relative;
+  color: #fff;
+  z-index: 1;
+  max-width: 800px;
+}
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.hero-content p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+.buttons a {
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  margin: 0 10px;
+  font-weight: 600;
+}
+.btn-primary {
+  background: #ff6e5a;
+  color: #fff;
+}
+.btn-secondary {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background: rgba(101, 102, 106, 0.482);
+  text-align: center;
+}
+.feature {
+  max-width: 300px;
+}
+.feature .icon {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.feature h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.feature p {
+  font-size: 14px;
+  color: #555;
+}
+.icon img{
+  
+  width: 30%;
+  height: auto;
+}
+.ic img{
+    width: 5%;
+    height: auto;
+    float:right;
+}
+
+.lili :hover{
+    transform: scale(1.2);
+    
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  position: relative;
+  color: #791313;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: #747474;
+  color: #5c1d6c;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 6px;
+  line-height: 1;
+}
+
+
+.icon:hover {
+  opacity: 0.8;
+}
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #741eb3;
+  font-weight: 500;
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.menu a:hover {
+  color: #ff6e5a; /* Or any accent color */
+}
